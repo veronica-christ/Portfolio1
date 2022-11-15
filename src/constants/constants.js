@@ -1,46 +1,33 @@
 export const projects = [
+
+
+  
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
-  {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 1,
-  },
-  {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
-  },
+    title: 'Survello',
+  description:'Survello is an application that allows users to conduct surveys and for their desired targets to take those surveys'
+  ,image:'/images/kontrak.png',
+  id:0}
+  
+  ,{title: 'Kontrak',
+  description:'Kontrak is an app that serves as a bridge between people seeking services from contractors.',
+  image:'/images/kontrak.png',
+  id:1
+}
+ ,
+  {title: 'Expense Tracker',
+  description:'This is a simple expense tracking app that allows users to enter the details of their incomes and expenses in order to keep track of how much they are gaining or losing'
+  ,
+  image:'/images/h.jpeg',
+  id:2}
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
+  { year: 2015, text: 'I started my educational journey in software development', },
   { year: 2018, text: 'Worked as a freelance developer', },
   { year: 2019, text: 'Founded JavaScript Mastery', },
   { year: 2020, text: 'Shared my projects with the world', },
   { year: 2021, text: 'Started my own platform', },
+];
+const projectsDemo=[
+
 ];

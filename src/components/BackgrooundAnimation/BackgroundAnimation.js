@@ -242,7 +242,7 @@ const BackgroundAnimation = () => (
           cy="0"
           r="1"
           gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(301 301) rotate(90) scale(300)"
+          gradientTransform="translate(301 301) rotate(70) scale(300)"
         >
           <stop offset="0.333333" stopColor="#FBFBFB" />
           <stop offset="1" stopColor="white" stopOpacity="0" />
@@ -253,7 +253,7 @@ const BackgroundAnimation = () => (
           cy="0"
           r="1"
           gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(301 301) rotate(90) scale(300)"
+          gradientTransform="translate(301 301) rotate(60) scale(300)"
         >
           <stop offset="0.333333" stopColor="#FBFBFB" />
           <stop offset="1" stopColor="white" stopOpacity="0" />
