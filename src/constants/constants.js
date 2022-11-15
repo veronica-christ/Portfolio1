@@ -6,7 +6,8 @@ export const projects = [
     title: 'Survello',
   description:'Survello is an application that allows users to conduct surveys and for their desired targets to take those surveys'
   ,image:'/images/kontrak.png',
-  id:0}
+  id:0,
+tags: 'Node js  React Express Angular'}
   
   ,{title: 'Kontrak',
   description:'Kontrak is an app that serves as a bridge between people seeking services from contractors.',
@@ -20,6 +21,7 @@ export const projects = [
   image:'/images/h.jpeg',
   id:2}
 ];
+
 
 export const TimeLineData = [
   { year: 2015, text: 'I started my educational journey in software development', },

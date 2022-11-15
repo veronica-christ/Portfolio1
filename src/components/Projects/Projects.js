@@ -20,6 +20,10 @@ const Projects = () => (
   <Hr/>
 </TitleContent>
 <CardInfo>{project.description}</CardInfo>
+<TitleContent>Stack</TitleContent>
+<TagList>{projects.map((project)=>(
+  <Tag key={project.tags}></Tag>
+))}</TagList>
       </BlogCard>
     ))}
   </GridContainer>
