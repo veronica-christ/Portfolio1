@@ -10,7 +10,7 @@ import { Section } from '../styles/GlobalComponents';
 const Home = () => {
   return (
     <Layout>
-      <title>Veronica|BackendDev</title>
+      <title>Veronica Fullstack Developer</title>
       <Section grid>
         <Hero />
         <BgAnimation />
