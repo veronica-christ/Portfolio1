@@ -2,12 +2,7 @@ export const projects = [
 
 
   
-  {
-    title: 'Survello',
-  description:'Survello is an application that allows users to conduct surveys and for their desired targets to take those surveys'
-  ,image:'/images/Survello.png',
-  id:0,
-tags: 'Node js  React Express Angular'}
+
   
   ,{title: 'Kontrak',
   description:'Kontrak is an app that serves as a bridge between people seeking services from contractors.',
@@ -19,7 +14,13 @@ tags: 'Node js  React Express Angular'}
   description:'This is a simple expense tracking app that allows users to enter the details of their incomes and expenses in order to keep track of how much they are gaining or losing'
   ,
   image:'/images/ET.png',
-  id:2}
+  id:2},
+  {
+    title: 'CycleCare',
+  description:'CycleCare is an application that is aimed at assisting a girl child with access to pads as well as period health.  This App is currently underway'
+  ,image:'/images/Give.png',
+  id:0,
+tags: 'Node js  React Express Angular'}
 ];
 
 
