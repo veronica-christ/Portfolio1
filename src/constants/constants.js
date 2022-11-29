@@ -5,7 +5,7 @@ export const projects = [
   {
     title: 'Survello',
   description:'Survello is an application that allows users to conduct surveys and for their desired targets to take those surveys'
-  ,image:'/images/kontrak.png',
+  ,image:'/images/Survello.png',
   id:0,
 tags: 'Node js  React Express Angular'}
   
@@ -18,7 +18,7 @@ tags: 'Node js  React Express Angular'}
   {title: 'Expense Tracker',
   description:'This is a simple expense tracking app that allows users to enter the details of their incomes and expenses in order to keep track of how much they are gaining or losing'
   ,
-  image:'/images/h.jpeg',
+  image:'/images/ET.png',
   id:2}
 ];
 
