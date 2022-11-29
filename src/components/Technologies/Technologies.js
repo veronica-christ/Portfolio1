@@ -6,6 +6,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech" >
 <SectionDivider/>
+<br/>
 <SectionTitle>
   Technologies
 </SectionTitle>
@@ -24,15 +25,7 @@ const Technologies = () =>  (
       </ListParagraph>
     </ListContainer>
   </ListItem>
-  <ListItem>
 
-    <ListContainer>
-      <ListTitle>UI/UX</ListTitle>
-      <ListParagraph>Experience with
-        <br/>tools like Figma
-      </ListParagraph>
-    </ListContainer>
-  </ListItem>
   <ListItem>
    
     
@@ -47,11 +40,19 @@ const Technologies = () =>  (
  <DiNodejs size="5rem"/>
     </div>
       <ListParagraph>Experience with
-        <br/> Node and Databases
+        <br/> Node and PostgresSql
       </ListParagraph>
     </ListContainer>
   </ListItem>
-  
+  <ListItem>
+
+<ListContainer>
+  <ListTitle>UI/UX</ListTitle>
+  <ListParagraph>Experience with
+    <br/>tools like Figma
+  </ListParagraph>
+</ListContainer>
+</ListItem>
  </List>
   </Section>
 );

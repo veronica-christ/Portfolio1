@@ -7,22 +7,22 @@ import { TimeLineData } from '../../constants/constants';
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
-  // const [activeItem, setActiveItem] = useState(0);
-  // const carouselRef = useRef();
+  const [activeItem, setActiveItem] = useState(0);
+  const carouselRef = useRef();
 
   // const scroll = (node, left) => {
   //   return node.scrollTo({ left, behavior: 'smooth' });
   // }
 
-  // const handleClick = (e, i) => {
-  //   e.preventDefault();
+  const handleClick = (e, i) => {
+    e.preventDefault();
 
-  //   if (carouselRef.current) {
-  //     const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
+    if (carouselRef.current) {
+      const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
       
-  //     scroll(carouselRef.current, scrollLeft);
-  //   }
-  // }
+      scroll(carouselRef.current, scrollLeft);
+    }
+  }
 
   // const handleScroll = () => {
   //   if (carouselRef.current) {
@@ -43,9 +43,26 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+   <Section id="about ">
+<SectionTitle>
+  My journey as a Developer
+</SectionTitle>
+<SectionText>I started loving computers at the age of 8, I would spend hours playing games or learning how to type at a friend's house and I have not looked back since!</SectionText>
+<CarouselContainer ref={carouselRef}>
+<>
+{TimeLineData.map((item,index)=>(
+<CarouselMobileScrollNode key={index} final={index==TOTAL_CAROUSEL_COUNT-1}>
+  <CarouselItem index={index} id={`carousel__item-${index}` } active={activeItem} onClick={(e)=>handleClick(e,index)}>
+    <CarouselItemTitle>
+       {item.year}
+    </CarouselItemTitle>
+  </CarouselItem>
+</CarouselMobileScrollNode>
+
+))}
+</>
+</CarouselContainer>
+   </Section>
   );
 };
 
