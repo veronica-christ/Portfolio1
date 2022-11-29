@@ -50,9 +50,7 @@ const Header = () =>  (
      <SocialIcons href="https://www.linkedin.com/in/veronica-phago-211b061a6/">
 <AiFillLinkedin size="3rem"/>
       </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/veronica_christ/">
-<AiFillInstagram size="3rem"/>
-      </SocialIcons>
+ 
     
      
      </Div3>
