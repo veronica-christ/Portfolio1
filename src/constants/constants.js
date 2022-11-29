@@ -10,17 +10,18 @@ export const projects = [
   id:1
 }
  ,
-  {title: 'Expense Tracker',
-  description:'This is a simple expense tracking app that allows users to enter the details of their incomes and expenses in order to keep track of how much they are gaining or losing'
-  ,
-  image:'/images/ET.png',
-  id:2},
+ 
   {
     title: 'CycleCare',
-  description:'CycleCare is an application that is aimed at assisting a girl child with access to pads as well as period health.  This App is currently underway'
-  ,image:'/images/Give.png',
+  description:'CycleCare is an application that is aimed at assisting a girl child with access to pads as well as period health.  This app is currently in the design phase.'
+  ,image:'/images/b.png',
   id:0,
-tags: 'Node js  React Express Angular'}
+  },
+{title: 'Expense Tracker',
+description:'This is a simple expense tracking app that allows users to enter the details of their incomes and expenses in order to keep track of how much they are gaining or losing.'
+,
+image:'/images/ET.png',
+id:2}
 ];
 
 
