@@ -9,6 +9,7 @@ const Projects = () => (
  <Section nopadding id="projects">
   <SectionDivider/>
   <br/>
+  <br/>
   <SectionTitle>
     Projects
   </SectionTitle>

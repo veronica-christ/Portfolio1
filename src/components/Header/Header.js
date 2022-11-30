@@ -3,23 +3,24 @@ import React from 'react';
 import { AiFillFacebook, AiFillGithub, AiFillGitlab, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons,Span } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
-const Header = () =>  (
- 
- <Container>
-  <Div1>
-   <Link href="/">
-    <a style={{display:"flex", alignItems:"center", color:"goldenrod", marginBottom:'20px'}}>
+const Header = () => (
 
-     <DiCssdeck size="3rem"/><Span  >Veronica Portfolio</Span>
-    </a>
-    </Link>
+  <Container>
+    <Div1>
+      <Link href="/">
+        <a style={{ display: "flex", alignItems: "center", color: '#F46737 ', marginBottom: '20px' }}>
+
+          <DiCssdeck size="3rem" /><Span  >Veronica Portfolio</Span>
+        </a>
+      </Link>
     </Div1>
-     <Div2>
+    <Div2>
       <li>
         <Link href="#projects">
-          <NavLink>
+
+          <NavLink >
             Projects
           </NavLink>
         </Link>
@@ -38,22 +39,31 @@ const Header = () =>  (
           </NavLink>
         </Link>
       </li>
-     </Div2>
-     <Div3>
-
+    </Div2>
+    <Div3>
+    <SocialIcons href="https://www.linkedin.com/in/veronica-phago-211b061a6/">
+        <a style={{ display: "flex", alignItems: "center", color: "#F46737 0%", marginBottom: '0 px' }}>
+          <AiFillLinkedin size="3rem" />
+        </a>
+      </SocialIcons>
       <SocialIcons href="https://github.com/veronica-christ">
-<AiFillGithub size="3rem"/>
+        <a style={{ display: "flex", alignItems: "center", color: "#F46737 0%", marginBottom: '0 px' }}>
+          <AiFillGithub size="3rem" />
+        </a>
       </SocialIcons>
-      <SocialIcons href="https://gitlab.thedigitalacademy.co.za/veronica-P">
-     <AiFillGitlab size="3rem"></AiFillGitlab>
-     </SocialIcons>
-     <SocialIcons href="https://www.linkedin.com/in/veronica-phago-211b061a6/">
-<AiFillLinkedin size="3rem"/>
-      </SocialIcons>
- 
-    
+
+      <SocialIcons url="https://linkedin.com/in/jaykimsly"
+                    // fgColor='gray'
+                    // bgColor='transparent' 
+                    >
+                       <AiFillLinkedin size="3rem" />
+                      </SocialIcons>
+
      
-     </Div3>
+
+
+
+    </Div3>
   </Container>
 );
 

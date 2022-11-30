@@ -7,6 +7,7 @@ const Technologies = () =>  (
   <Section id="tech" >
 <SectionDivider/>
 <br/>
+<br/>
 <SectionTitle>
   Technologies
 </SectionTitle>

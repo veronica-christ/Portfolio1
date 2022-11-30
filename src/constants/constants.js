@@ -6,15 +6,15 @@ export const projects = [
   
   ,{title: 'Kontrak',
   description:'Kontrak is an app that serves as a bridge between people seeking services from contractors.',
-  image:'/images/kontrak.png',
+  image:'/images/kp.png',
   id:1
 }
  ,
  
   {
     title: 'CycleCare',
-  description:'CycleCare is an application that is aimed at assisting a girl child with access to pads as well as period health.  This app is currently in the design phase.'
-  ,image:'/images/b.png',
+  description:'CycleCare is an app that is aimed at assisting girls get access to pads as well as period health. *Design phase*.'
+  ,image:'/images/ck.png',
   id:0,
   },
 {title: 'Expense Tracker',
